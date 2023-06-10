@@ -1,0 +1,35 @@
+{
+    "expo": {
+        "name": "GallaMart",
+        "slug": "GallaMart",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/G.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/logo.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/galla.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            "package": "com.veerm.GallaMart"
+        },
+        "web": {
+            "favicon": "./assets/logo.png"
+        }
+
+    }
+}
